@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/IMG_29032020_233026_\(1080_x_1080_pixel\).jpg);
+    background-position: top;
+    background-size: 900px 900px;
+}
+.header{
+    background-color: rgb(105, 114, 129);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    box-shadow: rgb(15, 15, 15);
+    padding: 20px;
+}
+.header button{
+    padding: 8px;
+    border: thin none transparent;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    color: coral;
+    outline: cornflowerblue;
+}
+.header div{
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: whitesmoke;
+    align-items: flex-end;
+    padding: 5px;
+}
+.header div h3{
+    margin-left: 10px;
+    font-size: x-large;
+    cursor: pointer;
+    font-weight: normal;
+}
+.bodie{
+    background-color: darkgray;
+    text-align: center;
+    margin: 60px;
+    line-height: 30px;
+    color: rgb(177, 6, 6);
+    font-weight: bolder;
+    font-size: 20px;
+}
+input[id="name"]{
+    padding: 8px 10px;
+}
+input[id="fb"]{
+    padding: 30px 10px;
+}
+.footer{
+    margin-top: 300px;
+    background-color: #697281;
+    display: flex;
+    flex-direction: columm;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-shadow: rgb(88, 77, 77);
+}
+.footer div{
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: whitesmoke;
+    align-items: flex-start;
+    padding: 15px;
+}
+input[type="submit"]{
+    border-radius: 20px;
+    background-color: burlywood;
+    color: brown;
+    padding: 10px;
+    width: 20%;
+    margin-top: 20px;
+    padding: 10px 10px;
+}

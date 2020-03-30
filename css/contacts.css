@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../img/IMG_29032020_233026_\(1080_x_1080_pixel\).jpg);
+    background-position: top;
+    background-size: 900px 900px;
+}
+.header{
+    background-color: rgb(105, 114, 129);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    box-shadow: rgb(15, 15, 15);
+}
+.header div{
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: whitesmoke;
+    align-items: flex-end;
+    padding: 20px;
+}
+.header div h3{
+    margin-left: 10px;
+    font-size: x-large;
+    cursor: pointer;
+    font-weight: normal;
+}
+.cont{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 200px;
+    color: rgb(3, 165, 165);
+    line-height: 50px;
+}
+.footer{
+    background-color: #697281;
+    display: flex;
+    flex-direction: columm;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-shadow: rgb(15, 15, 15);
+    margin-top: 400px;
+}
+.footer div{
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: whitesmoke;
+    align-items: flex-start;
+    padding: 15px;
+}

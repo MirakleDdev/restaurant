@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgb(105, 114, 129);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    box-shadow: rgb(15, 15, 15);
+}
+.header div{
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: whitesmoke;
+    align-items: flex-end;
+    padding: 20px;
+}
+.header div h3{
+    margin-left: 10px;
+    font-size: x-large;
+    cursor: pointer;
+    font-weight: normal;
+}
+.body div{
+    background-image: linear-gradient(gray, rgb(105, 114, 129));
+    color: rgba(155, 15, 15, 0.842);
+    text-align: center;
+    font-size: larger;
+    padding: 50px;
+}
+input{
+    background-image: linear-gradient(to right, gray, rgba(155, 15, 15, 0.842));
+    padding: 10px 15px;
+    width: 15%;
+    border-radius: 10px;
+    text-decoration-style: none;
+    margin-top: 30px;
+    color: white;
+}
+img{
+    padding: 20px;
+    border-radius: 100px;
+}
+.menu-item{
+    background-image: linear-gradient(to right, gray, rgba(155, 15, 15, 0.842));
+    padding: 15px;
+    color: white;
+}
+.footer{
+    background-color: #697281;
+    display: flex;
+    flex-direction: columm;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-shadow: rgb(15, 15, 15);
+    padding: 0px 0px;
+}
+.footer div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: whitesmoke;
+    align-items: flex-start;
+    padding: 15px;
+}

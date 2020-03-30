@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(105, 114, 129);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    box-shadow: rgb(15, 15, 15);
+}
+.header button{
+    padding: 8px;
+    border: thin none transparent;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    color: coral;
+    outline: cornflowerblue;
+}
+.header div{
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: whitesmoke;
+    align-items: flex-end;
+    padding: 5px;
+}
+.header div h3{
+    margin-left: 10px;
+    font-size: x-large;
+    cursor: pointer;
+    font-weight: normal;
+}
+.main-div{
+    background-image: url('../img/IMG_29032020_233026_\(1080_x_1080_pixel\).jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color: red;
+    text-shadow: black;
+}
+.main-div button{
+    height: 50px;
+    width: 400px;
+    border: thin none navajowhite;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    background-color: grey;
+    color: white;
+}
+.footer{
+    background-color: #697281;
+    display: flex;
+    flex-direction: columm;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-shadow: rgb(15, 15, 15);
+}
+.footer div{
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: whitesmoke;
+    align-items: flex-start;
+    padding: 15px;
+}
