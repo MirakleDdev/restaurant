@@ -3,6 +3,8 @@
     padding: 0px;
 }
 .header{
+    display: flex;
+    flex-wrap: wrap;
     background-color: rgb(105, 114, 129);
     display: flex;
     flex-direction: row;
@@ -11,6 +13,8 @@
     box-shadow: rgb(15, 15, 15);
 }
 .header div{
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 5px;
     display: flex;
     flex-direction: row;
@@ -23,12 +27,16 @@
     padding: 20px;
 }
 .header div h3{
+    display: flex;
+    flex-wrap: wrap;
     margin-left: 10px;
     font-size: x-large;
     cursor: pointer;
     font-weight: normal;
 }
 .body div{
+    display: flex;
+    flex-wrap: wrap;
     background-image: linear-gradient(gray, rgb(105, 114, 129));
     color: rgba(155, 15, 15, 0.842);
     text-align: center;
@@ -36,19 +44,25 @@
     padding: 50px;
 }
 input{
+    display: flex;
+    flex-wrap: wrap;
     background-image: linear-gradient(to right, gray, rgba(155, 15, 15, 0.842));
     padding: 10px 15px;
-    width: 15%;
+    width: 50%;
     border-radius: 10px;
     text-decoration-style: none;
     margin-top: 30px;
     color: white;
 }
 img{
+    display: flex;
+    flex-wrap: wrap;
     padding: 20px;
     border-radius: 100px;
 }
 .menu-item{
+    display: flex;
+    flex-wrap: wrap;
     background-image: linear-gradient(to right, gray, rgba(155, 15, 15, 0.842));
     padding: 15px;
     color: white;
